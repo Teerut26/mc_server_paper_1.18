@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:glass"]
+                    }
+                ]
+            }
+        },
+        "has_copper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:copper_ingot"]
+                    }
+                ]
+            }
+        },
+        "has_glowstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:glowstone"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_glass"
+        ],
+        [
+            "has_copper"
+        ],
+        [
+            "has_glowstone"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "light_book:light_block"
+        ]
+    }
+}

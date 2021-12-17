@@ -1,0 +1,425 @@
+[18:03:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:03:14] [ServerMain/INFO]: Reloading ResourceManager: Default, timber v2.1.4.zip, coordinates hud v1.2.2.zip, bukkit, LightBlockEditor, VanillaTweaks_c736194.zip, crafting_honey_piston.zip, builders_wand_1.17.zip, crafting_activator_rail_64.zip, crafting_copper_hopper.zip, crafting_detector_rail_64.zip, crafting_powered_rail_64.zip, crafting_rail_64.zip, Chunk Loaders Modify Teerut&Ball
+[18:03:15] [Worker-Main-1/INFO]: Loaded 7 recipes
+[18:03:15] [Worker-Main-1/ERROR]: Couldn't parse loot table minecraft:blocks/yellow_shulker_box
+com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+	at net.minecraft.util.GsonHelper.getAsString(GsonHelper.java:112) ~[?:?]
+	at net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer.deserialize(SetContainerContents.java:115) ~[?:?]
+	at net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer.b(SetContainerContents.java:104) ~[?:?]
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.deserialize(LootItemConditionalFunction.java:99) ~[?:?]
+	at net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer.a(SetContainerContents.java:104) ~[?:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:448) ~[?:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:466) ~[?:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:172) ~[?:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.b(LootPoolSingletonContainer.java:151) ~[?:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:86) ~[?:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.a(LootPoolSingletonContainer.java:151) ~[?:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:448) ~[?:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:456) ~[?:?]
+	at net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$1.deserializeCustom(CompositeEntryBase.java:61) ~[?:?]
+	at net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$1.b(CompositeEntryBase.java:53) ~[?:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:86) ~[?:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:74) ~[?:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:448) ~[?:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:456) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:448) ~[?:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:466) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:266) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:260) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:47) ~[paper-1.18.1.jar:git-Paper-79]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:45) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.world.level.storage.loot.LootTables.a(LootTables.java:20) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:71) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$4(SimpleReloadInstance.java:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:71) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$4(SimpleReloadInstance.java:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:71) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$4(SimpleReloadInstance.java:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:71) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$4(SimpleReloadInstance.java:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance$1.lambda$wait$0(SimpleReloadInstance.java:53) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance$1.wait(SimpleReloadInstance.java:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:03:16] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[18:03:16] [Server thread/INFO]: Loading properties
+[18:03:17] [Server thread/INFO]: This server is running Paper version git-Paper-79 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 4b0b725)
+[18:03:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:03:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:03:17] [Server thread/INFO]: Default game type: SURVIVAL
+[18:03:17] [Server thread/INFO]: Generating keypair
+[18:03:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:03:17] [Server thread/INFO]: Using epoll channel type
+[18:03:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:03:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:03:17] [Server thread/ERROR]: Ambiguous plugin name `OreTools' for files `plugins/ItemHolo.jar' and `plugins/OreTools.jar' in `plugins'
+[18:03:18] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:03:22] [Server thread/WARN]: Legacy plugin FarmTools v0.1 does not specify an api-version.
+[18:03:22] [Server thread/WARN]: Legacy plugin HealthBar v1.8.3 does not specify an api-version.
+[18:03:22] [Server thread/WARN]: Legacy plugin OreTools v0.1 does not specify an api-version.
+[18:03:22] [Server thread/WARN]: Legacy plugin TeerutAll v0.1 does not specify an api-version.
+[18:03:22] [Server thread/WARN]: Legacy plugin LightChecker v0.1 does not specify an api-version.
+[18:03:22] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.86
+[18:03:22] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[18:03:22] [Server thread/INFO]: [FarmTools] Loading FarmTools v0.1
+[18:03:22] [Server thread/INFO]: [HealthBar] Loading HealthBar v1.8.3
+[18:03:22] [Server thread/INFO]: [StackMob] Loading StackMob v5.7.3
+[18:03:22] [Server thread/INFO]: [OreTools] Loading OreTools v0.1
+[18:03:22] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[18:03:22] [Server thread/INFO]: [TeerutAll] Loading TeerutAll v0.1
+[18:03:22] [Server thread/INFO]: [LightChecker] Loading LightChecker v0.1
+[18:03:22] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.8+6008-1246d61
+[18:03:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@46b42fa4]
+[18:03:23] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.10.10
+[18:03:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0
+[18:03:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:03:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.86
+[18:03:24] [Server thread/INFO]:         __    
+[18:03:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.86
+[18:03:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:03:24] [Server thread/INFO]: 
+[18:03:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:03:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:03:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:03:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:03:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1752ms)
+[18:03:25] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:03:25] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0 which is not a depend, softdepend or loadbefore of this plugin.
+[18:03:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:03:25] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:03:25] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:03:25] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:03:25] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.8+6008-1246d61
+[18:03:25] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:03:25] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:03:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[18:03:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:03:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:03:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:03:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:03:26] [Server thread/INFO]: Preparing level "world"
+[18:03:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:03:28] [Server thread/INFO]: Time elapsed: 286 ms
+[18:03:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:03:28] [Server thread/INFO]: Time elapsed: 117 ms
+[18:03:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:03:28] [Server thread/INFO]: Time elapsed: 112 ms
+[18:03:28] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[18:03:29] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
+[18:03:29] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using PaperSkinRefresher.
+[18:03:29] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[18:03:33] [Server thread/INFO]: [FarmTools] Enabling FarmTools v0.1*
+[18:03:33] [Server thread/INFO]: [FarmTools] [STDOUT] FarmTools : onEnable
+[18:03:33] [Server thread/WARN]: Nag author(s): '[]' of 'FarmTools' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[18:03:33] [Server thread/ERROR]: Fatal error trying to convert FarmTools v0.1:com/teerut/FarmTools/FarmToolsEvent.class
+org.bukkit.plugin.AuthorNagException: No legacy enum constant for FARMLAND. Did you forget to define a modern (1.13+) api-version in your plugin.yml?
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore$1$1.visitFieldInsn(Commodore.java:360) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2444) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1514) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:744) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:424) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore.convert(Commodore.java:174) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:381) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.teerut.FarmTools.FarmTools.onEnable(FarmTools.java:15) ~[Farmtools.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:563) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:477) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:313) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-79]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:03:33] [Server thread/ERROR]: Fatal error trying to convert FarmTools v0.1:com/teerut/FarmTools/Funtion.class
+org.bukkit.plugin.AuthorNagException: No legacy enum constant for FARMLAND. Did you forget to define a modern (1.13+) api-version in your plugin.yml?
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore$1$1.visitFieldInsn(Commodore.java:360) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2444) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1514) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:744) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:424) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore.convert(Commodore.java:174) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:381) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.teerut.FarmTools.FarmToolsEvent.<init>(FarmToolsEvent.java:16) ~[Farmtools.jar:?]
+	at com.teerut.FarmTools.FarmTools.onEnable(FarmTools.java:15) ~[Farmtools.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:563) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:477) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:313) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-79]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:03:33] [Server thread/ERROR]: Fatal error trying to convert FarmTools v0.1:com/teerut/FarmTools/ItemAllow.class
+org.bukkit.plugin.AuthorNagException: No legacy enum constant for WHEAT_SEEDS. Did you forget to define a modern (1.13+) api-version in your plugin.yml?
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore$1$1.visitFieldInsn(Commodore.java:360) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2444) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1514) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:744) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:424) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore.convert(Commodore.java:174) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:381) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.teerut.FarmTools.Funtion.<init>(Funtion.java:13) ~[Farmtools.jar:?]
+	at com.teerut.FarmTools.FarmToolsEvent.<init>(FarmToolsEvent.java:16) ~[Farmtools.jar:?]
+	at com.teerut.FarmTools.FarmTools.onEnable(FarmTools.java:15) ~[Farmtools.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:563) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:477) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:313) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-79]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:03:33] [Server thread/ERROR]: Fatal error trying to convert FarmTools v0.1:com/teerut/FarmTools/handle/CustomItemHandle.class
+org.bukkit.plugin.AuthorNagException: No legacy enum constant for WHEAT_SEEDS. Did you forget to define a modern (1.13+) api-version in your plugin.yml?
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore$1$1.visitFieldInsn(Commodore.java:360) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2444) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1514) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:744) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:424) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore.convert(Commodore.java:174) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:381) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.teerut.FarmTools.FarmTools.onEnable(FarmTools.java:17) ~[Farmtools.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:563) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:477) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:313) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-79]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:03:33] [Server thread/WARN]: java.lang.Throwable: Warning: A plugin is creating a recipe using a Deprecated method. This will cause you to receive warnings stating 'Tried to load unrecognized recipe: bukkit:<ID>'. Please ask the author to give their recipe a static key using NamespacedKey.
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.inventory.ShapedRecipe.<init>(ShapedRecipe.java:28)
+[18:03:33] [Server thread/WARN]: 	at Farmtools.jar//com.teerut.FarmTools.handle.CustomItemHandle.<init>(CustomItemHandle.java:13)
+[18:03:33] [Server thread/WARN]: 	at Farmtools.jar//com.teerut.FarmTools.FarmTools.onEnable(FarmTools.java:17)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:313)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1202)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:03:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:03:33] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.3*
+[18:03:33] [Server thread/INFO]: [StackMob] Enabling StackMob v5.7.3
+[18:03:33] [Server thread/INFO]: [StackMob] StackMob v5.7.3 by antiPerson and contributors.
+[18:03:33] [Server thread/INFO]: [StackMob] GitHub: https://github.com/Nathat23/StackMob-5 Discord: https://discord.gg/fz9xzuB
+[18:03:33] [Server thread/INFO]: [StackMob] Loading config files...
+[18:03:33] [Server thread/INFO]: [StackMob] Registering hooks and trait checks...
+[18:03:33] [Server thread/INFO]: [StackMob] Registering events, commands and tasks...
+[18:03:33] [Server thread/INFO]: [OreTools] Enabling OreTools v0.1*
+[18:03:33] [Server thread/INFO]: Ore Tools : Enable
+[18:03:33] [Server thread/ERROR]: Fatal error trying to convert OreTools v0.1:com/teerut/oretools/listener.class
+org.bukkit.plugin.AuthorNagException: No legacy enum constant for DIORITE. Did you forget to define a modern (1.13+) api-version in your plugin.yml?
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore$1$1.visitFieldInsn(Commodore.java:360) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2444) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1514) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:744) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:424) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore.convert(Commodore.java:174) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:381) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.teerut.oretools.main.onEnable(main.java:20) ~[ItemHolo.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:563) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:477) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:313) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-79]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:03:33] [Server thread/INFO]: [TeerutAll] Enabling TeerutAll v0.1*
+[18:03:33] [Server thread/ERROR]: Fatal error trying to convert TeerutAll v0.1:com/teerut/TeerutAll/ConcreteWater/ConcreteWaterEvent.class
+org.bukkit.plugin.AuthorNagException: No legacy enum constant for WHITE_CONCRETE_POWDER. Did you forget to define a modern (1.13+) api-version in your plugin.yml?
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore$1$1.visitFieldInsn(Commodore.java:360) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2444) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1514) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:744) ~[asm-9.2.jar:9.2]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:424) ~[asm-9.2.jar:9.2]
+	at org.bukkit.craftbukkit.v1_18_R1.util.Commodore.convert(Commodore.java:174) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:381) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:174) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at com.teerut.TeerutAll.Main.onEnable(Main.java:21) ~[TeerutAll.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:563) ~[paper-1.18.1.jar:git-Paper-79]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:477) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:313) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-79]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-79]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:03:33] [Server thread/INFO]: [TeerutAll] [STDOUT] [TeerutAll] : onEnable
+[18:03:33] [Server thread/WARN]: Nag author(s): '[]' of 'TeerutAll' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[18:03:33] [Server thread/INFO]: [LightChecker] Enabling LightChecker v0.1*
+[18:03:33] [Server thread/INFO]: [LightChecker] [STDOUT] LightChecker : onEnable
+[18:03:33] [Server thread/WARN]: Nag author(s): '[]' of 'LightChecker' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[18:03:33] [Server thread/WARN]: java.lang.Throwable: Warning: A plugin is creating a recipe using a Deprecated method. This will cause you to receive warnings stating 'Tried to load unrecognized recipe: bukkit:<ID>'. Please ask the author to give their recipe a static key using NamespacedKey.
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.inventory.ShapedRecipe.<init>(ShapedRecipe.java:28)
+[18:03:33] [Server thread/WARN]: 	at LightChecker.jar//com.teerut.LightChecker.handle.CustomItemHandle.<init>(CustomItemHandle.java:13)
+[18:03:33] [Server thread/WARN]: 	at LightChecker.jar//com.teerut.LightChecker.LightChecker.onEnable(LightChecker.java:16)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:563)
+[18:03:33] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:477)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:313)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1202)
+[18:03:33] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:03:33] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:03:33] [Server thread/INFO]: [LockettePro] Enabling LockettePro v2.10.10
+[18:03:33] [Server thread/INFO]: [LockettePro] Incompatible server version detected: 1.18.1 . Trying to run into 1.16 compatibility mode!
+[18:03:33] [Server thread/INFO]: [LockettePro] ===================================
+[18:03:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0
+[18:03:33] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:03:34] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:03:34] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:03:34] [Server thread/INFO]: [Essentials] Loaded 36837 items from items.json.
+[18:03:34] [Server thread/INFO]: [Essentials] Using locale en_US
+[18:03:34] [ForkJoinPool.commonPool-worker-1/INFO]: [StackMob] No update is currently available.
+[18:03:34] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:03:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:03:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:03:34] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:03:34] [Server thread/INFO]: Starting remote control listener
+[18:03:34] [Server thread/INFO]: Thread RCON Listener started
+[18:03:34] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[18:03:34] [Server thread/INFO]: Running delayed init tasks
+[18:03:34] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:03:34] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:03:34] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:03:34] [Server thread/INFO]: Done (17.655s)! For help, type "help"
+[18:03:34] [Server thread/INFO]: Timings Reset
+[18:03:34] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[18:03:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:03:35] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.19.2.
+[18:03:35] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[18:03:40] [User Authenticator #1/INFO]: UUID of player Holilope is ff7b3483-cacc-3384-afaf-c94b46f7a063
+[18:03:40] [Server thread/INFO]: Holilope joined the game
+[18:03:40] [Server thread/INFO]: Holilope[/172.17.0.1:39138] logged in with entity id 683 at ([world]0.862500011920929, 74.0, -11.900109629398699)
+[18:03:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[18:03:45] [Server thread/INFO]: Holilope lost connection: Disconnected
+[18:03:45] [Server thread/INFO]: Holilope left the game
+[18:03:47] [User Authenticator #1/INFO]: UUID of player Holilope is ff7b3483-cacc-3384-afaf-c94b46f7a063
+[18:03:47] [Server thread/INFO]: Holilope joined the game
+[18:03:48] [Server thread/INFO]: Holilope[/172.17.0.1:39142] logged in with entity id 721 at ([world]0.862500011920929, 74.0, -11.900109629398699)

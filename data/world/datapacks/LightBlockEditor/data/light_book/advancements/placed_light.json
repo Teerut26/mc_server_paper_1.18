@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "placed_light": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:light"
+          }
+        }
+      },
+      "rewards": 
+      {
+          "function": "light_book:find_player"
+      }
+}

@@ -1,0 +1,11 @@
+--2021-12-12 06:23:53--  https://dl6.9minecraft.net/index.php?act=download
+Resolving dl6.9minecraft.net (dl6.9minecraft.net)... 192.81.135.10
+Connecting to dl6.9minecraft.net (dl6.9minecraft.net)|192.81.135.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.php?act=download’
+
+index.php?act=download                           [<=>                                                                                          ]       0  --.-KB/s               index.php?act=download                           [ <=>                                                                                         ]       0  --.-KB/s    in 0s      
+
+2021-12-12 06:23:54 (0.00 B/s) - ‘index.php?act=download’ saved [0]
+

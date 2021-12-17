@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.17.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1639755346163
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1639764225888
+  login: 1639764228117
+money: '0'
+logoutlocation:
+  world: 1a5192a9-d1c3-433a-8055-6837e91dba89
+  world-name: world
+  x: 0.862500011920929
+  y: 74.0
+  z: -11.900109629398699
+  yaw: 115.21487426757812
+  pitch: 34.50002670288086
+last-account-name: Holilope
+lastlocation:
+  world: 1a5192a9-d1c3-433a-8055-6837e91dba89
+  world-name: world
+  x: 178.6388097830057
+  y: 43.809486741892094
+  z: -1077.5042905674059
+  yaw: 9.139404296875
+  pitch: 78.63925170898438

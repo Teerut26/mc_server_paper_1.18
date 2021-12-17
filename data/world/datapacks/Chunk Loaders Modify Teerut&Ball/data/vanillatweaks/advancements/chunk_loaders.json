@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald_block"
+		},
+		"title": "Chunk Loaders Modify Teerut&Ball",
+		"description": ["",{"text":"Drop a diamond above a emerald block to make a chunk loader (AKA a loadstone) which keeps the chunk it's in loaded until it is broken.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

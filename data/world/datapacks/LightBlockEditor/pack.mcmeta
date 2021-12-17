@@ -1,0 +1,7 @@
+{
+    "pack":
+    {
+            "pack_format": 7,
+            "description": "Allows players in survival to craft Light Blocks and manipulate them with the Lights book"
+    }
+}
