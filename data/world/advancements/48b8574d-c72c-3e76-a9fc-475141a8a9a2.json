@@ -264,6 +264,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2021-12-18 16:11:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2021-12-14 05:42:29 +0000"
@@ -512,6 +518,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2021-12-18 16:03:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2021-12-14 05:42:29 +0000"
@@ -578,6 +590,7 @@
       "minecraft:skeleton": "2021-12-17 03:48:09 +0000",
       "minecraft:spider": "2021-12-15 03:52:36 +0000",
       "minecraft:creeper": "2021-12-16 07:05:29 +0000",
+      "minecraft:zombified_piglin": "2021-12-18 16:11:26 +0000",
       "minecraft:cave_spider": "2021-12-15 03:39:33 +0000",
       "minecraft:zombie": "2021-12-16 06:30:06 +0000",
       "minecraft:drowned": "2021-12-14 07:10:38 +0000"
@@ -686,6 +699,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2021-12-18 15:58:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
     "criteria": {
       "has_blue_dye": "2021-12-15 07:32:45 +0000"
@@ -769,6 +788,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2021-12-15 08:59:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2021-12-18 16:03:15 +0000"
     },
     "done": true
   },
@@ -1123,6 +1148,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mushroom_fields": "2021-12-18 16:11:15 +0000",
       "minecraft:beach": "2021-12-14 06:17:03 +0000",
       "minecraft:sparse_jungle": "2021-12-14 06:15:42 +0000",
       "minecraft:lukewarm_ocean": "2021-12-14 06:17:12 +0000",
@@ -1261,6 +1287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2021-12-18 13:10:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2021-12-14 07:36:06 +0000"
@@ -1335,6 +1367,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2021-12-18 14:51:17 +0000",
       "minecraft:nether_wastes": "2021-12-14 06:10:37 +0000",
       "minecraft:soul_sand_valley": "2021-12-14 06:11:38 +0000"
     },
@@ -1343,6 +1376,12 @@
   "rotten_flesh_to_leather:recipes/misc/leather": {
     "criteria": {
       "has_flesh": "2021-12-14 05:36:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2021-12-18 14:49:01 +0000"
     },
     "done": true
   },
@@ -1652,6 +1691,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2021-12-18 16:12:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2021-12-14 05:52:50 +0000"
@@ -1688,6 +1733,7 @@
       "cooked_porkchop": "2021-12-17 08:40:48 +0000",
       "honey_bottle": "2021-12-15 08:15:19 +0000",
       "cooked_mutton": "2021-12-17 08:02:13 +0000",
+      "pumpkin_pie": "2021-12-18 15:02:09 +0000",
       "bread": "2021-12-14 05:41:04 +0000",
       "rotten_flesh": "2021-12-14 07:13:10 +0000",
       "glow_berries": "2021-12-17 07:12:38 +0000",
@@ -1730,6 +1776,12 @@
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2021-12-14 05:59:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2021-12-18 15:58:19 +0000"
     },
     "done": true
   },
@@ -1857,6 +1909,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2021-12-18 13:02:14 +0000",
       "minecraft:pig": "2021-12-16 06:18:07 +0000",
       "minecraft:bee": "2021-12-15 06:52:29 +0000"
     },
@@ -2031,6 +2084,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2021-12-18 16:12:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2021-12-14 06:15:20 +0000"
@@ -2161,6 +2220,12 @@
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2021-12-16 07:02:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2021-12-18 16:11:26 +0000"
     },
     "done": true
   },
@@ -2404,9 +2469,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2021-12-18 15:27:43 +0000"
+    },
+    "done": true
+  },
   "uncraftable_ice:recipes/building_blocks/ice": {
     "criteria": {
       "has_packed_ice": "2021-12-15 03:20:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_boots": "2021-12-18 14:49:01 +0000"
     },
     "done": true
   },
@@ -2625,6 +2702,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2021-12-18 16:03:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2021-12-14 07:36:09 +0000"
@@ -2726,6 +2809,17 @@
       "has_stone": "2021-12-17 13:14:20 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "textures/entity/cat/white.png": "2021-12-18 13:00:24 +0000",
+      "textures/entity/cat/jellie.png": "2021-12-18 13:40:01 +0000",
+      "textures/entity/cat/ragdoll.png": "2021-12-18 12:59:52 +0000",
+      "textures/entity/cat/all_black.png": "2021-12-18 13:14:13 +0000",
+      "textures/entity/cat/persian.png": "2021-12-18 12:58:33 +0000",
+      "textures/entity/cat/calico.png": "2021-12-18 12:57:34 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
