@@ -23,7 +23,7 @@ stack:
   # Only begin to stack entities when this amount of entities are nearby.
   threshold:
     enabled: true
-    amount: 5
+    amount: 2
   # Only find matches for this mob if it has moved from the last time nearby mobs were checked. (*)
   # This may break grinders etc, which is why for now it is disabled by default.
   # Please give feedback at https://github.com/Nathat23/StackMob-5/issues/198
@@ -52,7 +52,7 @@ display-name:
   # Placeholders:
   # %type% - the entity's type
   # %size% - the size of the stack
-  format: '&#20B2AA%type% &#778899(%size%)'
+  format: '&#00ffff%type% &#778899(%size%)'
   # Whether the display tag can only be seen when the player targets the entity.
   # Mode:
   # ALWAYS - The tag will always be visible as long as the entity is loaded.

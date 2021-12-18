@@ -728,6 +728,7 @@
       "minecraft:creeper": "2021-12-13 12:38:40 +0000",
       "minecraft:slime": "2021-12-13 12:19:06 +0000",
       "minecraft:phantom": "2021-12-14 06:10:28 +0000",
+      "minecraft:zombified_piglin": "2021-12-18 04:33:16 +0000",
       "minecraft:witch": "2021-12-13 12:12:27 +0000",
       "minecraft:wither_skeleton": "2021-12-17 14:02:25 +0000",
       "minecraft:piglin": "2021-12-15 15:12:08 +0000",
@@ -1903,6 +1904,12 @@
   "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
     "criteria": {
       "has_red_dye": "2021-12-17 01:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2021-12-18 04:37:19 +0000"
     },
     "done": true
   },
