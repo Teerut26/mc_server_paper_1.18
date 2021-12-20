@@ -775,6 +775,7 @@
       "minecraft:wither_skeleton": "2021-12-17 14:02:25 +0000",
       "minecraft:piglin": "2021-12-15 15:12:08 +0000",
       "minecraft:enderman": "2021-12-17 09:25:39 +0000",
+      "minecraft:stray": "2021-12-20 05:02:36 +0000",
       "minecraft:zombie": "2021-12-13 12:38:27 +0000",
       "minecraft:zombie_villager": "2021-12-13 12:38:29 +0000"
     },
@@ -1452,6 +1453,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:mushroom_fields": "2021-12-17 14:58:51 +0000",
+      "minecraft:frozen_river": "2021-12-20 04:57:41 +0000",
       "minecraft:bamboo_jungle": "2021-12-13 12:06:38 +0000",
       "minecraft:badlands": "2021-12-13 12:58:27 +0000",
       "minecraft:beach": "2021-12-15 15:00:21 +0000",
@@ -1459,12 +1461,15 @@
       "minecraft:sparse_jungle": "2021-12-13 12:06:04 +0000",
       "minecraft:river": "2021-12-13 06:31:42 +0000",
       "minecraft:lukewarm_ocean": "2021-12-15 16:14:28 +0000",
+      "minecraft:snowy_plains": "2021-12-20 04:55:17 +0000",
       "minecraft:dripstone_caves": "2021-12-15 04:39:39 +0000",
       "minecraft:swamp": "2021-12-13 12:12:02 +0000",
       "minecraft:forest": "2021-12-13 07:05:36 +0000",
+      "minecraft:ice_spikes": "2021-12-20 05:04:37 +0000",
       "minecraft:frozen_ocean": "2021-12-17 14:34:59 +0000",
       "minecraft:windswept_forest": "2021-12-13 12:19:56 +0000",
       "minecraft:jungle": "2021-12-13 12:06:47 +0000",
+      "minecraft:snowy_beach": "2021-12-19 05:15:05 +0000",
       "minecraft:old_growth_birch_forest": "2021-12-13 12:19:55 +0000",
       "minecraft:savanna": "2021-12-13 06:27:19 +0000",
       "minecraft:plains": "2021-12-13 06:25:21 +0000"

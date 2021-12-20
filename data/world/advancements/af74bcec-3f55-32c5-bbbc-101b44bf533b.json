@@ -120,6 +120,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2021-12-20 02:15:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2021-12-12 05:16:48 +0000"
@@ -165,6 +171,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2021-12-17 03:15:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2021-12-20 01:54:14 +0000"
     },
     "done": true
   },
@@ -1142,6 +1154,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mushroom_fields": "2021-12-20 02:27:21 +0000",
       "minecraft:bamboo_jungle": "2021-12-17 02:06:41 +0000",
       "minecraft:beach": "2021-12-12 05:28:39 +0000",
       "minecraft:dark_forest": "2021-12-17 02:13:22 +0000",
@@ -1149,6 +1162,7 @@
       "minecraft:lukewarm_ocean": "2021-12-14 06:17:06 +0000",
       "minecraft:forest": "2021-12-12 05:28:16 +0000",
       "minecraft:windswept_forest": "2021-12-17 02:07:44 +0000",
+      "minecraft:deep_frozen_ocean": "2021-12-20 02:28:11 +0000",
       "minecraft:jungle": "2021-12-17 02:04:39 +0000",
       "minecraft:old_growth_birch_forest": "2021-12-17 02:06:49 +0000",
       "minecraft:savanna": "2021-12-12 05:13:06 +0000",
@@ -1345,6 +1359,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2021-12-20 02:26:53 +0000",
       "minecraft:nether_wastes": "2021-12-13 07:48:55 +0000"
     },
     "done": false
@@ -2682,6 +2697,12 @@
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2021-12-14 02:07:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2021-12-20 02:15:59 +0000"
     },
     "done": true
   },

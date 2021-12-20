@@ -19,7 +19,7 @@ stack:
   interval: 100
   # The area around an entity for which applicable stacks should be found.
   # Format: [(x cord),(y cord),(z cord)]
-  merge-range: [10,10,10]
+  merge-range: [5,5,5]
   # Only begin to stack entities when this amount of entities are nearby.
   threshold:
     enabled: true
@@ -38,7 +38,7 @@ stack:
 worlds-blacklist: []
 worlds-blacklist-invert: false
 # Types of entity which should not stack (3) (***)
-types-blacklist: [VILLAGER, WATER, RAIDER]
+types-blacklist: [VILLAGER, WATER, RAIDER, IRONGOLEM]
 types-blacklist-invert: false
 # If the entity's spawn reason is listed below, do not stack. (2)
 reason-blacklist:

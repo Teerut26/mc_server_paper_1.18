@@ -11,28 +11,20 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1639755346163
+  lastteleport: 0
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1639844064251
-  login: 1639842721587
+  logout: 1639996284560
+  login: 1639995184535
 money: '0'
 logoutlocation:
   world: 1a5192a9-d1c3-433a-8055-6837e91dba89
   world-name: world
-  x: -134.42446709906616
+  x: 6.495667997441696
   y: 70.0
-  z: 546.0648557314237
-  yaw: 33.473052978515625
-  pitch: 8.100534439086914
+  z: -45.523925700629846
+  yaw: 151.77734375
+  pitch: 1.132770299911499
 last-account-name: Holilope
-lastlocation:
-  world: 1a5192a9-d1c3-433a-8055-6837e91dba89
-  world-name: world
-  x: 178.6388097830057
-  y: 43.809486741892094
-  z: -1077.5042905674059
-  yaw: 9.139404296875
-  pitch: 78.63925170898438
