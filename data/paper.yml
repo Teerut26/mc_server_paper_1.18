@@ -33,6 +33,7 @@ timings:
   server-name: Unknown Server
 config-version: 24
 settings:
+  fix-target-selector-tag-completion: true
   max-joins-per-tick: 3
   track-plugin-scoreboards: false
   fix-entity-position-desync: true
@@ -105,6 +106,7 @@ settings:
         action: DROP
 world-settings:
   default:
+    monster-spawn-max-light-level: -1
     delay-chunk-unloads-by: 10s
     disable-teleportation-suffocation-check: false
     generator-settings:
